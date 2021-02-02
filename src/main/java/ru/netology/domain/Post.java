@@ -6,12 +6,16 @@ public class Post {
     private String groupName;
     private String timeOfPost;
     private String textOfPost;
+    private String authorId;
     private String imageOfPostUrl;
+    private String geo;
 
     private LikesInfo likesInfo;
     private CommentsInfo commentsInfo;
+    private Copyright copyright;
     private RepostsInfo repostsInfo;
     private int numberOfViews;
+    private Additionally additionally;
 
     public int getId() {
         return id;

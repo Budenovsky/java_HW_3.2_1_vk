@@ -3,6 +3,8 @@ package ru.netology.domain;
 public class CommentsInfo {
     private int count;
     private boolean canComment;
+    private boolean groupsCanPost;
+
 
     public int getCount() {
         return count;
@@ -18,5 +20,13 @@ public class CommentsInfo {
 
     public void setCanComment(boolean canComment) {
         this.canComment = canComment;
+    }
+
+    public boolean isGroupsCanPost() {
+        return groupsCanPost;
+    }
+
+    public void setGroupsCanPost(boolean groupsCanPost) {
+        this.groupsCanPost = groupsCanPost;
     }
 }
